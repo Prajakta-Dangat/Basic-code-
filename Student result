@@ -1,0 +1,9 @@
+marks=int(input("enter a number"))
+if(marks>80):
+    print("student pass in first distinction")
+elif(marks>60):
+    print("student pass in second distinction")
+elif(marks>35):
+    print("student pass in last distinction")
+else:
+     print("student is fail")        
